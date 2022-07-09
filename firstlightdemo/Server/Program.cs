@@ -1,6 +1,17 @@
+using firstlightdemo.Server.Interfaces;
+using firstlightdemo.Server.Models;
+using firstlightdemo.Server.Services;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+//Do not forgot to modify ConnectionStrings as "DefaultConnection" to the appsetting.json file
+builder.Services.AddDbContext<DatabaseContext>
+    (options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddTransient<IDepartment, DepartmentManager>();
 
 // Add services to the container.
 

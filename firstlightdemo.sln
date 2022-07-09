@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstlightdemo.Server", "firstlightdemo\Server\firstlightdemo.Server.csproj", "{B9DFBA32-F49E-4FEC-B256-37F8A7DF9BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "firstlightdemo.Server", "firstlightdemo\Server\firstlightdemo.Server.csproj", "{B9DFBA32-F49E-4FEC-B256-37F8A7DF9BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstlightdemo.Client", "firstlightdemo\Client\firstlightdemo.Client.csproj", "{32142C55-AAD2-4219-BEEA-9B6A5F07A8C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "firstlightdemo.Client", "firstlightdemo\Client\firstlightdemo.Client.csproj", "{32142C55-AAD2-4219-BEEA-9B6A5F07A8C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstlightdemo.Shared", "firstlightdemo\Shared\firstlightdemo.Shared.csproj", "{8D5368CC-E6BC-4B73-B51E-B6D617207489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "firstlightdemo.Shared", "firstlightdemo\Shared\firstlightdemo.Shared.csproj", "{8D5368CC-E6BC-4B73-B51E-B6D617207489}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
